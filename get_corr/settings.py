@@ -8,6 +8,6 @@ ITEM_PIPELINES = {
     'get_corr.pipelines.JsonLineWriterPipeline' : 600
 }
 
-DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 1
 
 
