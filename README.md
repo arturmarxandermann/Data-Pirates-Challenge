@@ -43,11 +43,20 @@ Finnaly,  run the scrapy crawler inside the container
 
 ```docker-compose exec scrapy bash -c 'scrapy crawl corrs'```
 
-which can take a few minutes, because the option DOWNLOAD_DELAY = 3 is established in settings.
+which can take a few minutes, because the option DOWNLOAD_DELAY = 1 is established in settings.
 This can be used to throttle the crawling speed to avoid hitting servers too hard.
 
 The results are in the Data folder, separated by the acronyms of the states, as shown in the following figure
 ![Screenshot from 2022-04-28 22-20-57](https://user-images.githubusercontent.com/71330975/165871705-3047e940-116c-4de4-8f26-b00a995c8f23.png)
+
+After performing the testm
+the docker container can be shut down with the command
+
+```docker kill <container_id>```
+
+where the id can be obtained with docker ps command.
+
+
 
 
 ## Tests 
