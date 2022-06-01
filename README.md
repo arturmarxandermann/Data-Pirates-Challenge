@@ -56,12 +56,14 @@ The results are in the Data folder, separated by the acronyms of the states, as 
 To verify the connection to the website, we use the pytest package.
 With the container open, do
 
-```docker-compose exec scrapy bash -c 'python3 -m pytest test_corrs.py'```
+```docker-compose exec scrapy bash -c 'pytest test_corrs.py'```
 
 A message like below validates the test
 
 ![Screenshot from 2022-06-01 18-12-18](https://user-images.githubusercontent.com/71330975/171502718-5be91b7c-ab11-4ed8-ab3c-f48d6d9ad9a3.png)
 
+
+## Closing the container
 
 After performing the test,
 
