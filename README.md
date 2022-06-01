@@ -37,7 +37,7 @@ which must be open, which can be checked with
 
 ```docker ps```
 
-![Screenshot from 2022-04-28 22-21-42](https://user-images.githubusercontent.com/71330975/165871812-341d3f97-03ab-4beb-8739-de95df2fc17f.png)
+![Screenshot from 2022-06-01 18-58-56](https://user-images.githubusercontent.com/71330975/171508951-96e35c02-d1de-47b5-b291-4870718fc9d9.png)
 
 Finnaly,  run the scrapy crawler inside the container
 
