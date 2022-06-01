@@ -20,9 +20,9 @@ First of all you need to clone that repository
 
 ```git clone https://github.com/arturmarxandermann/Data-Pirates-Challenge```
 
-Access the *test-challenge* folder
+Access the *data-pirates-challenge* folder
 
-```cd test-challenge```
+```cd Data-Pirates-Challenge-main```
 
 Then build the Docker image
 
