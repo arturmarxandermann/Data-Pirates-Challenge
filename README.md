@@ -49,6 +49,20 @@ This can be used to throttle the crawling speed to avoid hitting servers too har
 The results are in the Data folder, separated by the acronyms of the states, as shown in the following figure
 ![Screenshot from 2022-04-28 22-20-57](https://user-images.githubusercontent.com/71330975/165871705-3047e940-116c-4de4-8f26-b00a995c8f23.png)
 
+
+
+
+## Tests 
+To verify the connection to the website, we use the pytest package.
+With the container open, do
+
+```docker-compose exec scrapy bash -c 'scrapy crawl corrs'```
+
+A message like below validates the test
+
+![Screenshot from 2022-06-01 18-12-18](https://user-images.githubusercontent.com/71330975/171502718-5be91b7c-ab11-4ed8-ab3c-f48d6d9ad9a3.png)
+
+
 After performing the test,
 
 the docker container can be shut down with the command
@@ -56,20 +70,6 @@ the docker container can be shut down with the command
 ```docker kill <container_id>```
 
 where the id can be obtained with docker ps command.
-
-
-
-
-## Tests 
-To verify the connection to the website, we use the pytest package.
-In the test-challenge folder, do
-
-```python3 -m pytest test_corrs.py```
-
-A message like below validates the test
-
-![Screenshot from 2022-06-01 18-12-18](https://user-images.githubusercontent.com/71330975/171502718-5be91b7c-ab11-4ed8-ab3c-f48d6d9ad9a3.png)
-
 
 
 
