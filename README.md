@@ -72,6 +72,15 @@ the docker container can be shut down with the command
 ```docker kill <container_id>```
 
 where the id can be obtained with docker ps command.
+Also, if you want to remove the docker images do
+
+```docker image rm -f <image_id>```
+
+where the image id can be obtained with the command 
+
+
+```docker images```
+
 
 
 
