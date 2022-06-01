@@ -58,7 +58,6 @@ In the test-challenge folder, do
 
 A message like below validates the test
 
-
 ![Screenshot from 2022-06-01 18-12-18](https://user-images.githubusercontent.com/71330975/171502718-5be91b7c-ab11-4ed8-ab3c-f48d6d9ad9a3.png)
 
 
