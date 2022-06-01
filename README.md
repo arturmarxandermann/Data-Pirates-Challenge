@@ -18,7 +18,7 @@ It also uses the standard *os* and *json* libraries.
 ## Installation 
 First of all you need to clone that repository
 
-```git clone https://github.com/arturmarxandermann/test-challenge```
+```git clone https://github.com/arturmarxandermann/Data-Pirates-Challenge```
 
 Access the *test-challenge* folder
 
